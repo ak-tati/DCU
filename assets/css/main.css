@@ -82,8 +82,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #D4D9DD url("images/bg03.jpg");
-		color: #474f51;
+		background: #FFFFFF;
+		color: #002F8C;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
@@ -836,6 +836,8 @@ input, select, textarea {
 							padding-top: 10px;
 						}
 
+				/*Parte 1 */
+
 				.row {
 					margin-top: -20px;
 					margin-left: -20px;
@@ -1378,6 +1380,7 @@ input, select, textarea {
 						}
 
 		}
+/*Parte 2*/
 
 /* Multi-use */
 
@@ -1430,7 +1433,6 @@ input, select, textarea {
 	.check-list li {
 		padding: 0.7em 0 0.7em 45px;
 		font-size: 1.2em;
-		background: url("images/icon-checkmark.png") 0px 1.05em no-repeat;
 	}
 
 		.check-list li:first-child {
@@ -1457,7 +1459,7 @@ input, select, textarea {
 
 	.bordered-feature-image {
 		display: block;
-		background: #fff url("images/bg04.png");
+		background: #fff;
 		padding: 10px;
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		margin: 0 0 1.5em 0;
@@ -1511,7 +1513,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #3B4346 url("images/bg01.jpg");
+		background: #002F8C;
 		border-bottom: solid 1px #272d30;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
@@ -1581,7 +1583,7 @@ input, select, textarea {
 /* Features */
 
 	#features {
-		background: #353D40 url("images/bg02.jpg");
+		background: #002F8C;
 		border-bottom: solid 1px #272e31;
 		padding: 45px 0 45px 0;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
@@ -1605,7 +1607,7 @@ input, select, textarea {
 /* Content */
 
 	#content {
-		background: #f7f7f7 url("images/bg04.png");
+		background: #f7f7f7;
 		border-top: solid 1px #fff;
 		padding: 45px 0 45px 0;
 	}
@@ -1653,13 +1655,13 @@ input, select, textarea {
 	#footer {
 		padding: 45px 0 45px 0;
 		text-shadow: 1px 1px 1px white;
-		color: #546b76;
+		color: #002F8C;
 		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
 	}
 
 		#footer h2 {
 			font-size: 1.25em;
-			color: #212f35;
+			color: #ffffff;
 			margin: 0 0 1em 0;
 		}
 
@@ -1668,18 +1670,18 @@ input, select, textarea {
 		}
 
 		#footer .quote-list li {
-			border-top: solid 1px #e0e4e6;
-			border-bottom: solid 1px #b5bec3;
+			border-top: solid 1px #0048B7;
+			border-bottom: solid 1px #0048B7;
 		}
 
 		#footer .link-list li {
-			border-top: solid 1px #e0e4e6;
-			border-bottom: solid 1px #b5bec3;
+			border-top: solid 1px #0048B7;
+			border-bottom: solid 1px #0048B7;
 		}
 
 		#footer .check-list li {
-			border-top: solid 1px #e0e4e6;
-			border-bottom: solid 1px #b5bec3;
+			border-top: solid 1px #0048B7;
+			border-bottom: solid 1px #0048B7;
 		}
 
 /* Copyright */
@@ -1689,13 +1691,15 @@ input, select, textarea {
 		box-shadow: inset 0px 1px 0px 0px #e0e4e7;
 		text-align: center;
 		padding: 45px 0 80px 0;
-		color: #8d9ca3;
+		color: #002F8C;
 		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
 	}
 
 		#copyright a {
 			color: #8d9ca3;
 		}
+
+/*Parte 3*/
 
 /* Large */
 
@@ -1833,7 +1837,6 @@ input, select, textarea {
 				width: 100%;
 				z-index: 10001;
 				color: #fff;
-				background: url("images/bg04.jpg");
 				box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
 				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
@@ -1874,7 +1877,6 @@ input, select, textarea {
 						position: absolute;
 						width: 20px;
 						height: 30px;
-						background: url("images/mobileUI-site-nav-opener-bg.svg");
 						top: 15px;
 						left: 20px;
 						z-index: 1;
@@ -1906,14 +1908,14 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: url("images/bg04.jpg");
-				box-shadow: inset -1px 0px 0px 0px rgba(255, 255, 255, 0.25), inset -2px 0px 25px 0px rgba(0, 0, 0, 0.5);
-				text-shadow: -1px -1px 1px black;
+				background-color: #002F8C;
+  				box-shadow: inset -1px 0px 0px 0px rgba(255, 255, 255, 0.25), inset -2px 0px 25px 0px rgba(0, 0, 0, 0.5);
+  				text-shadow: -1px -1px 1px black;
 			}
 
 				#navPanel .link {
 					display: block;
-					color: #fff;
+					color: #0048B7;
 					text-decoration: none;
 					font-size: 1.25em;
 					line-height: 2em;
