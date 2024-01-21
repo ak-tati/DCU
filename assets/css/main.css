@@ -1545,6 +1545,17 @@ input, select, textarea {
 		font-size: 1.2em;
 	}
 
+	/* Estilo para el contenido del tbody */
+	table.table tbody {
+		color: black; /* Color de texto para el contenido del tbody */
+	}
+
+	/* Estilo para th en el tbody */
+	table.table tbody th {
+		background-color: #002F8C; /* Fondo del th */
+		color: #fff; /* Color de texto para el th */
+	}
+
 /* Header */
 
 	#header {
@@ -1590,8 +1601,8 @@ input, select, textarea {
 			#header nav a {
 				color: #9A9A9A;
 				text-decoration: none;
-				font-size: 1.50em;
-				margin-left: 11px;
+				font-size: 1.2em;
+				margin-left: 10px;
 				outline: 0;
 			}
 
@@ -1667,7 +1678,11 @@ input, select, textarea {
 		}
 
 		#features a {
-			color: #e0e8eb;
+			color: #2200CC;
+		}
+
+		#features a:hover {
+			color: #3518c6;
 		}
 
 		#features strong {
@@ -1677,6 +1692,9 @@ input, select, textarea {
 		#features img {
 			border-radius: 5px;
 		}
+
+
+
 
 
 
