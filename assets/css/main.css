@@ -1512,6 +1512,7 @@ input, select, textarea {
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		}
 
+	/*IDs y Clases nuevas*/
 	.botonResaltado {
 		background-color: #F0A30A;
 		color: #000;
@@ -1520,6 +1521,7 @@ input, select, textarea {
 		border-radius: 5px;
 		cursor: pointer;
 		width: 10%;
+		font-size: 0.6em;
 	}
 
 	.botonInvertido {
@@ -1530,6 +1532,7 @@ input, select, textarea {
 		border-radius: 5px;
 		cursor: pointer;
 		margin-left: 5px;
+		font-size: 1.0em;
 	}
 	
 	.textBoxBuscar {
@@ -1539,6 +1542,7 @@ input, select, textarea {
 		padding: 3px;
 		border-radius: 5px;
 		width: 10%;
+		font-size: 1.2em;
 	}
 
 /* Header */
@@ -1553,6 +1557,8 @@ input, select, textarea {
 		#header > .container {
 			position: relative;
 			min-height: 175px;
+			max-width: 1800px;
+			width: 100%;
 		}
 
 		#header h1 {
@@ -1575,14 +1581,17 @@ input, select, textarea {
 			font-weight: 00;
 			margin-left: 0;
 			margin-right: 0;
+			padding: 0px;
+			max-width: 1700px;
+			width: 100%;
 		}
 		
 
 			#header nav a {
 				color: #c6c8c8;
 				text-decoration: none;
-				font-size: 1.2em;
-				margin-left: 8px;
+				font-size: 1.50em;
+				margin-left: 11px;
 				outline: 0;
 			}
 
@@ -1592,6 +1601,10 @@ input, select, textarea {
 				
 			#header nav a#headerNav {
 				color: #fff;
+			}
+
+			#header nav a#carmenMartinez {
+				color: #1CA6B9;
 			}
 
 		.subpage #header > .container {
