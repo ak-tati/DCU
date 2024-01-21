@@ -1466,7 +1466,7 @@ input, select, textarea {
 		display: block;
 		background: #fff;
 		padding: 10px;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 1.0em 0;
 	}
 
 		.bordered-feature-image img {
@@ -1588,7 +1588,7 @@ input, select, textarea {
 		
 
 			#header nav a {
-				color: #c6c8c8;
+				color: #9A9A9A;
 				text-decoration: none;
 				font-size: 1.50em;
 				margin-left: 11px;
@@ -1603,8 +1603,16 @@ input, select, textarea {
 				color: #fff;
 			}
 
+			#header nav a#headerNav:hover {
+				color: #e1e2e2;
+			}
+
 			#header nav a#carmenMartinez {
 				color: #1CA6B9;
+			}
+
+			#header nav a#carmenMartinez:hover {
+				color: #26d7ee;
 			}
 
 		.subpage #header > .container {
@@ -1640,14 +1648,22 @@ input, select, textarea {
 		background: #ffffff;
 		border-bottom: solid 1px #272e31;
 		padding: 45px 0 45px 0;
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 		color: #a0a8ab;
 	}
 
 		#features h2 {
 			font-size: 1.25em;
-			color: #fff;
+			color: #000;
 			margin: 0 0 0.25em 0;
+		}
+
+		#features h1 {
+			font-size: 2.0em;
+			color: #000;
+			margin: 0 0 0.25em 0;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			text-align: center;
 		}
 
 		#features a {
@@ -1655,13 +1671,16 @@ input, select, textarea {
 		}
 
 		#features strong {
-			color: #fff;
+			color: #000;
 		}
 
 		#features img {
 			border-radius: 5px;
 		}
 
+
+
+		
 /* Content */
 
 	#content {
