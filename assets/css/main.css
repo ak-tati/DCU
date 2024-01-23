@@ -1524,6 +1524,28 @@ input, select, textarea {
 		font-size: 0.6em;
 	}
 
+	.botonResaltado:hover {
+		background-color: #F0E10C;
+		color: #000;
+		padding: 14px 0px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 10%;
+		font-size: 0.6em;
+	}
+
+	.botonResaltado:active {
+		background-color: #C28409;
+		color: #000;
+		padding: 14px 0px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 10%;
+		font-size: 0.6em;
+	}
+
 	.botonInvertido {
 		background-color: transparent;
 		color: #1CA5B8;
