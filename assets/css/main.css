@@ -5,7 +5,36 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+#header {
+	display: flex;
+	align-items: center;
+}
 
+#nav {
+	display:flex;
+	margin-bottom: 20px;
+}
+
+#nav a {
+	margin-right: 5px;
+}
+
+#espacio-menu{
+	flex-grow:1;
+}
+
+#last-child {
+	width: 120px;
+	margin-right: 20px;
+}
+ #last-child:hover {
+                background-color: #C28409; 
+ }
+
+ #carrito:hover {
+	
+	border-bottom: solid 0.8pt white;
+ }
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
