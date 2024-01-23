@@ -1837,6 +1837,14 @@ input, select, textarea {
 			height: 400px; /* Ajusta la altura según tus necesidades */
 			object-fit: cover; /* Esto asegura que la imagen cubra toda la caja sin deformarse */
 		}
+
+		.carousel-indicators {
+			position: absolute;
+			bottom: 50px;
+			left: 35%;
+			transform: translateX(-50%);
+			z-index: 1;
+		}
 		
 		.carousel {
 			margin: 0 auto; /* Establece márgenes automáticos izquierdo y derecho para centrar horizontalmente */
@@ -1844,6 +1852,7 @@ input, select, textarea {
 			width: 100%; /* Asegura que el carousel se ajuste al ancho máximo */
 		}
 		
+
 
 
 
