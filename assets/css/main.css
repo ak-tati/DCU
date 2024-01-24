@@ -1584,6 +1584,7 @@ input, select, textarea {
 		cursor: pointer;
 		margin-left: 5px;
 		font-size: 1.0em;
+		margin-right: 10px;
 	}
 
 	.botonInvertido:hover {
@@ -1605,6 +1606,7 @@ input, select, textarea {
 		border-radius: 5px;
 		width: 10%;
 		font-size: 1.2em;
+		margin-left: 10px;
 	}
 
 	.botonNormal {
